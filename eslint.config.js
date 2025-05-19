@@ -1,10 +1,10 @@
-import js from '@eslint/js'
-import globals from 'globals'
-import pluginReact from 'eslint-plugin-react'
-import pluginPrettier from 'eslint-plugin-prettier'
-import prettierConfig from 'eslint-config-prettier'
-import { defineConfig } from 'eslint/config'
-import babelEslintParser from '@babel/eslint-parser'
+import js from '@eslint/js';
+import globals from 'globals';
+import pluginReact from 'eslint-plugin-react';
+import pluginPrettier from 'eslint-plugin-prettier';
+import prettierConfig from 'eslint-config-prettier';
+import { defineConfig } from 'eslint/config';
+import babelEslintParser from '@babel/eslint-parser';
 
 export default defineConfig([
   {
@@ -39,4 +39,4 @@ export default defineConfig([
     files: ['**/*.{js,mjs,cjs,jsx}'],
     rules: prettierConfig.rules,
   },
-])
+]);
