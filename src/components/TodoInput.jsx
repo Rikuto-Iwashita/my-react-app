@@ -13,15 +13,15 @@ const TodoInput = ({ onAdd }) => {
       setText(''); //入力欄をクリア
     }
   };
-};
 
-return (
-  <div>
-    <input
-      value={text}
-      onChange={(e) => setText(e.target.value)}
-      placeholder="新しいTODOを入力"
-    />
-    <button onClick={handleAdd}>追加</button>
-  </div>
-);
+  return (
+    <div>
+      <input
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="新しいTODOを入力"
+      />
+      <button onClick={handleAdd}>追加</button>
+    </div>
+  );
+};
