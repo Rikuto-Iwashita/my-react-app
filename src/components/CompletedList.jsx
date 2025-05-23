@@ -2,7 +2,7 @@ import React from 'react';
 import TodoItem from './TodoItem';
 import PropTypes from 'prop-types';
 
-完了済みのTODOの一覧を表示するコンポーネント;
+//完了済みのTODOの一覧を表示するコンポーネント;
 const CompletedList = ({ todos, onDelete }) => {
   return (
     <ul>

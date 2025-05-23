@@ -20,7 +20,7 @@ const TodoList = ({ todos, onComplete, onDelete }) => {
 
 //propsの型チェック
 TodoList.propTypes = {
-  todos: PropTypes.arrayof(
+  todos: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
       text: PropTypes.string,

@@ -27,4 +27,4 @@ TodoItem.propTypes = {
   isCompleted: PropTypes.bool,
 };
 
-export default TodoTtem;
+export default TodoItem;

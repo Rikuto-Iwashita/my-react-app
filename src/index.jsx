@@ -1,6 +1,7 @@
+// src/index.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Todo from './Todo';
+import Todo from './Todo'; // Todo.jsx がある前提
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Todo />);

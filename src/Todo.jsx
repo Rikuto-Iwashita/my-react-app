@@ -3,8 +3,6 @@ import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
 import CompletedList from './components/CompletedList';
 
-export default Todo;
-
 //アプリ全体を管理する親コンポーネント
 const Todo = () => {
   const [todos, setTodos] = useState([]);
@@ -48,3 +46,5 @@ const Todo = () => {
     </div>
   );
 };
+
+export default Todo;

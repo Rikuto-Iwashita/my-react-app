@@ -1,6 +1,5 @@
-export default TodoInput;
-
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 //ユーザーが新しいTODOを入力する為のコンポーネント
 const TodoInput = ({ onAdd }) => {
@@ -24,4 +23,10 @@ const TodoInput = ({ onAdd }) => {
       <button onClick={handleAdd}>追加</button>
     </div>
   );
+
+  TodoInput.propTypes = {
+    onAdd: PropTypes.func.isRequired,
+  };
 };
+
+export default TodoInput;
